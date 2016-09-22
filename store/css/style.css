@@ -1,0 +1,577 @@
+/*宏观属性*/
+body,input{
+    padding:0;
+    margin:0;
+    font-size:15px;
+    color:#9c9c9c;
+    overflow-x:hidden;
+}
+
+body
+{
+    padding:0;
+    margin:0;
+    font-size:15px;
+    background-color:#f5f5f5;
+}
+a{
+    padding:0;
+    margin:0;
+    font-size:15px;
+    color:#333;
+    text-decoration: none;
+}
+ul
+{
+    list-style:none;
+    padding:0;
+    margin:0
+}
+li
+{
+    display:inline-block;
+    padding:0;
+    margin:0
+}
+i
+{
+    font-style:normal;
+}
+/*index样式开始*/
+div.search_header
+{
+    border-bottom:1px solid #e2e2e3;
+    margin:5px;
+}
+div.search_header span
+{
+    display:inline-block;
+    margin:10px;
+}
+div.search_header input
+{
+    display:inline-block;
+    border:none;
+    height:10vw;
+    width:80vw;
+}
+.banner img
+{
+    width:100vw;
+}
+.main_1 div
+{
+    width:32vw;
+    text-align:center;
+    display:inline-block;
+    background-color:#fff;
+    margin:2px 0;
+}
+.main_1 h4,.main_1 span,.main_1 img
+{
+    font-size: 14px;
+    width:30vw;
+    display:block;
+    font-weight:normal;
+    padding:0 5px;
+    margin:0;
+}
+.main_1 div:nth-child(1) h4
+{
+    
+    color:#7fb7f9;
+}
+.main_1 div:nth-child(2) h4
+{
+  color:#da3a31;
+}
+.main_1 div:nth-child(3) h4
+{
+    color:#8ec23c;
+}
+.main_1 span
+{
+    font-size:9px;
+}
+.main_2 img
+{
+    width:100vw;
+    margin:2px;
+}
+.main_3
+{
+    background-color:#fff;
+}
+.main_3 img
+{
+    width:30vw;
+}
+.goods>div
+{
+    display:inline-block;
+}
+.goods 
+{
+    font-size: 11px;
+    display:block;
+    border-bottom:1px solid #9c9c9c;
+}
+.goods>div:nth-child(2)
+{
+    width:65vw;
+}
+.goods h4
+{
+    font-size: 14px;
+    display:block;
+    font-weight:normal;
+    color:#000;
+}
+.goods p
+{
+    font-size: 14px;
+    display:block;
+    color:#f15829;
+}
+.main_4 img
+{
+    width:100vw;
+    margin:2px;
+    margin-bottom:50px;
+}
+footer nav,
+footer .pay
+{
+    position:fixed;
+    bottom:0;
+    width:100vw;
+    background-color:#fff;
+}
+nav ul
+{
+    width:89%;
+    margin:0 auto;
+    background-color:#fff;
+}
+nav ul li
+{
+    
+    /*margin:0px 22px;*/
+     margin:0px 7%;
+}
+footer a,footer li
+{
+    background-color:#fff;
+    text-align:center;
+}
+footer a .active
+{
+    color:#f56a00;
+}
+footer a>span
+{
+    display:block;
+    font-size:14px;
+}
+/*index样式结束*/
+.clear
+{
+    clear:both;
+}
+/*搜索样式开始*/
+.search_home,.search_inp,.search_sear
+{
+    display:inline-block;
+    padding:10px 6px;
+    
+}
+.search_inp{
+    padding:0;
+}
+.search_inp input
+{
+     background-color:#fff;
+    border:1px solid #9c9c9c;
+   box-shadow:none;
+   width:80vw;
+   height:8vw
+}
+.search_remen
+{
+    width:98vw;
+    margin:0 auto;
+}
+.search_remen a
+{
+    font-size:13px;
+    border:none;
+    margin:15px;
+      background-color:#ccc;
+      line-height:35px;
+}
+.search_remen li
+{
+      background-color:#ccc;
+      margin:10px 0; 
+}
+.search_remen ul
+{
+    margin:10px 0;
+}
+.search_remen .first
+{
+     border:1px solid #da3a31;
+    background-color:#fff1ef;
+}
+.search_remen .first a
+{
+    background-color:#fff1ef;
+}
+/*搜索样式结束*/
+header
+{
+    width:100vw;
+    margin:0 auto;
+    border-bottom:1px solid #eee;
+}
+/*分类样式开始*/
+.return,.class_goods,.search,.shopping_goods
+{
+    display: inline-block;
+    padding:10px 6px;
+}
+.class_goods
+{
+    width:20vw;
+    margin:2px calc(31vw - 2vw);
+}
+ main.class
+{
+    width:95vw;
+    margin:0 auto;
+   background-color:#fff;
+}
+main.class h4
+{
+     text-align:center;
+     margin-top:10px;
+     padding:20px 0;
+     font-size:14px;
+     font-weight:normal;
+     color:#000;
+}
+.class_list img{
+    width:22vw;
+    display:block;
+}
+.class_list span{
+    display:block;
+    font-size:12px;
+     text-align:center;
+     padding:10px;
+     color:#000;
+}
+/*分类样式结束*/
+/*购物车样式开始*/
+.shopping_goods{
+    width:20vw;
+    margin:2px calc(31vw - 2vw);
+    text-align:center;
+}
+main .shopping_details
+{
+    width:100vw;
+    background-color:#fff;
+}
+.shopping_detail
+{
+    width:100%;
+}
+.shopping_detail_top>div
+{
+    display:inline-block;
+    margin:10px 0;
+}
+.shopping_detail_left img
+{
+    width:30vw;
+} 
+.shopping_detail_right span
+{
+    font-size:15px;
+    display:block;
+    color:#666;
+}
+.shopping_titl i
+{
+    font-size:13px;
+    font-style:normal;
+    color:#999;
+}
+.shopping_count{margin-top:20px;
+    
+    /*display:inline-block;*/
+}
+.shopping_count input
+{
+    width:20px;
+    border:none;
+    
+}
+.shopping_count span
+{
+    border-top: 1px solid #f5f5f5;
+    border:1px solid #999;
+    background:#f4f4f4;
+    display:inline-block;}
+.shopping_count i
+{
+    color:#888;
+    padding:5px;
+}
+.shopping_num
+{
+    text-align:center;
+}
+.shopping_trash
+{
+    float:right;
+}
+.shopping_detail_server
+{
+    width:90vw;
+    margin:0 auto;
+    padding:10px;
+    background-color:#f6f6f6;
+    
+}
+.shopping_detail_server span
+{
+    width:90vw;
+    margin:0 auto;
+}
+.shopping_detail_server img
+{
+    width:7vw;
+    display:block;
+}
+.shopping_detail_server1
+{
+    display:inline-block;
+    vertical-align:middle
+}
+.shopping_detail_server2,
+.shopping_detail_server3
+{
+    font-style:normal;
+    font-size:13px;
+    vertical-align:middle;
+}
+.shopping_detail_server3
+{
+    padding-left:37px;
+    color:#f56a00;
+}
+hr
+{
+    background-color:#f6f6f6;;
+    height: 1px;
+    border:none;
+    width:100vw;
+}
+.tip
+{
+    width:90vw;
+    margin:10px auto;
+    font-size:12px;
+    padding:10px 0;
+    padding-top:5px;
+    
+}
+.shopping_peijian
+{
+    width:100vw;
+    background-color:#fff;
+    padding-bottom:142px;
+
+}
+
+.shopping_peijian li
+{
+    display:block;
+     border-bottom:1px solid #f6f6f6;
+     padding-bottom:8px
+}
+.shopping_peijian a
+{
+    font-size:13px;
+    padding-left:10px;
+    color:#666666;
+}
+.shopping_peijian i
+{
+    float:right;
+    border-left:1px solid #f6f6f6;
+    padding:8px 15px;
+}
+.shopping_peijian span
+{
+    padding:2px;
+}
+footer .pay
+{
+    width:100vw;
+    margin-top:1px;
+    
+   background-color:#fff
+}
+.pay span
+{
+    display:block;
+    font-size:13px;
+    padding:10px 25px;
+    }
+.pay div
+{
+   float:left;
+    width:33.33%;
+}
+p
+{
+    margin-top:0px;
+    margin-bottom:0;
+}
+.pay a
+{
+    display: block;
+    line-height:61px;
+}
+.pay i.count{
+    display:block;
+}
+.pay i.money{
+    font-size:17px;
+    color:#ff5722;
+}
+div.shopping_class a
+{
+    background-color:#f4f4f4;
+    color:#333;
+}
+div.shopping_pay a
+{
+    background-color:#ff5722;
+    color:#fff;
+}
+/*shopping样式结束*/
+/*servers样式开始*/
+main.servers
+{
+    width:100vw;
+}
+main.servers .user_3 span,
+main.servers .servers_item1 span
+{
+    
+    font-size:13px;
+    color:#333;
+}
+.server_user
+{
+    width:100%;
+    background-color:#fff; 
+    
+}
+.user_1
+{
+    display:inline-block;
+    width:100%;
+    background-color:#f56a00;
+    padding-top:20px;
+    padding-bottom:50px;
+    
+}
+.username
+{
+    display:inline-block;
+    width:100px;
+    margin:0 calc(50% - 45px);
+    color:#fff;
+    font-weight:bold;
+        /*margin:0 auto;*/
+}
+.user_2
+{
+    margin:0 calc(50% - 45px);
+}
+.user_2 img
+{
+    position:relative;
+    /*top:-30px;*/
+    width:80px;
+    height:80px;
+    border:2px solid #fff;
+    border-radius:50%;
+    margin-top:-40px;
+}
+.server_user .user_3 ul
+{
+    margin:0 30px;
+   padding-bottom:10px;
+}
+.server_user .user_3 li
+{
+    margin:0 5px;
+    padding:0 15px;
+    text-align:center;
+    border-right:1px solid #ececec;
+}
+.server_user .user_3 li a
+{
+    color:#888;
+}
+.server_user .user_3 li:nth-of-type(3)
+{
+    
+    border-right:none;
+}
+.server_user .user_3 span
+{
+    display:block;
+}
+.server_user li i:nth-of-type(2)
+{
+    display:inline-block;
+    width:30px;
+    border-bottom:1px solid #e33f7b;
+
+} 
+.server_user li:nth-of-type(2) i:nth-of-type(2)
+{
+    border-bottom:1px solid #8bc34a;
+
+}
+.server_user li:nth-of-type(3) i:nth-of-type(2)
+{
+    border-bottom:1px solid #ffaa00;
+
+} 
+.servers_item1
+{
+    width:100vw;
+    margin-top:10px;
+    background-color:#fff;
+    padding:5px 0;
+}
+.servers_item1 span
+{
+    letter-spacing:1px;
+}
+.servers_item1 i
+{
+   padding:0 15px;
+}
+.servers_item1 a
+{
+   margin:0px 20px;
+}
